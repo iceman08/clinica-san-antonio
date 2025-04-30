@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio | Clínica San Antonio</title>
+    <title>Contacto | Clínica San Antonio</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/media_styles.css">
     <link rel="stylesheet" href="css/layout_styles.css">
@@ -11,9 +11,14 @@
 </head>
     <div id="header"></div>
     <main>
-        <section class="imagen-principal">
-            <img src="img/img_principal.png" alt="Fachada de la Clinica San Antonio">
-        </section>
+        <div class="container-contact">
+            <h3>Ingresa tus datos y nos comunicaremos contigo</h3> <br>
+            <input type="text" id="nombres" placeholder="Nombres" required><br><br>
+            <input type="text" id="email" placeholder="E-mail" required><br><br>
+            <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+            <br><br><br><br>
+            <button>Enviar</button>
+        </div>
     </main>
     <div id="footer"></div>
     <script src="scripts/headerfooter.js"></script>
