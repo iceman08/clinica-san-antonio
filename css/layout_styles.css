@@ -21,7 +21,6 @@ nav a:hover {
   margin-right: auto;
 }
 
-/* Contenedor principal de las secciones */
 .container-about {
   display: flex;
   align-items: flex-start;

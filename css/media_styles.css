@@ -39,16 +39,3 @@
     min-height: calc(30vh + 50px); 
     padding: 10px;
 }
-@media (max-width: 768px) {
-    .imagen-secundaria {
-        height: 25vh; /* Reduce la altura en pantallas medianas */
-        min-height: 20vh; /* Ajusta el tamaño mínimo */
-    }
-}
-
-@media (max-width: 480px) {
-    .imagen-secundaria {
-        height: 20vh; /* Reduce aún más la altura en pantallas pequeñas */
-        min-height: 15vh; /* Ajusta el tamaño mínimo */
-    }
-}
