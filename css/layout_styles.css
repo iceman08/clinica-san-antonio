@@ -22,6 +22,31 @@ nav a:hover {
 }
 
 /* Contenedor principal de las secciones */
+.container {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+}
+.content {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  text-align: center;
+  margin-left: 19.5%;
+  margin-right: 19.5%;
+  font-size: 18px;
+  align-items: center;
+}
+.section img {
+  width: 144px;
+  margin-top: 5px;
+}
 .container-2x2 {
   display: flex;
   flex-wrap: wrap; /* Permite que los elementos se acomoden cuando es necesario */
@@ -30,29 +55,5 @@ nav a:hover {
 /* Estilo para cada sección */
 .section-2x2 {
   flex: 1 1 45%; /* 45% de ancho para las secciones (2 por fila) */
-}
-.content {
-  display: flex;
-  align-items: center;
-  gap: 20px; /* Espacio entre la imagen y el texto */
-}
-
-  /* Media Query para pantallas pequeñas */
-@media (max-width: 900px) {
-  .section-2x2 {
-  flex: 1 1 100%; /* En pantallas pequeñas, las secciones ocupan el 100% del ancho */
-    display: block;
-    gap: 0px; /* Espacio entre la imagen y el texto */
-  }
-  .content {
-    display: block;
-    text-align: left; /* Alinea el texto a la izquierda */
-  }
-  .imagen-secundaria {
-    display: block; /* Asegura que la imagen sea un bloque independiente */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
-    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
-    height: auto;
-  }
 }
 

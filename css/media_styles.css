@@ -22,6 +22,16 @@
     object-fit: cover; /* Asegura que la imagen ocupe todo el espacio disponible */
 }
 
+.icono-clinica {
+    width: 40%;
+    text-align: center;
+  }
+
+.icono-clinica img {
+    width: 70%;
+  }
+
+
 .imagen-secundaria {
     display: flex;
     justify-content: flex; /* Centra horizontalmente */
