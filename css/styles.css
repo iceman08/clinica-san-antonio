@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+html, body {
+    height: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2b4b9b;
+    color: white;
+    padding: 10px 20px;
+    height: 50px;
+}
+footer {
+    text-align: center;
+    background: #2b4b9b;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+    padding: 1rem;
+}
+main {
+    flex: 1;
+}
+

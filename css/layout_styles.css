@@ -1,0 +1,58 @@
+nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background: #c0c0c0;
+    padding: 10px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #000000;
+    text-decoration: none;
+    font-size: large;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.a-logo {
+  margin-right: auto;
+}
+
+/* Contenedor principal de las secciones */
+.container-2x2 {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se acomoden cuando es necesario */
+  gap: 10px; /* Espacio entre las secciones */
+}
+/* Estilo para cada sección */
+.section-2x2 {
+  flex: 1 1 45%; /* 45% de ancho para las secciones (2 por fila) */
+}
+.content {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Espacio entre la imagen y el texto */
+}
+
+  /* Media Query para pantallas pequeñas */
+@media (max-width: 900px) {
+  .section-2x2 {
+  flex: 1 1 100%; /* En pantallas pequeñas, las secciones ocupan el 100% del ancho */
+    display: block;
+    gap: 0px; /* Espacio entre la imagen y el texto */
+  }
+  .content {
+    display: block;
+    text-align: left; /* Alinea el texto a la izquierda */
+  }
+  .imagen-secundaria {
+    display: block; /* Asegura que la imagen sea un bloque independiente */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto;
+  }
+}
+
