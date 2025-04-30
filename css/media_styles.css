@@ -9,17 +9,17 @@
 }
 .imagen-principal {
     display: flex;
-    justify-content: flex; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: calc(100vh - 130px); /* Ajusta la altura para ocupar el espacio restante (ajusta 150px según header/footer) */
-    min-height: 50vh; /* Asegura un tamaño mínimo */
+    justify-content: flex; 
+    align-items: center; 
+    height: calc(100vh - 130px); 
+    min-height: 50vh; 
 }
 .imagen-principal img {
-    max-width: 100%; /* Redimensiona horizontalmente según el ancho de la pantalla */
-    max-height: 100%; /* Redimensiona verticalmente según el alto del contenedor */
-    height: 100%; /* Permite que la imagen crezca para ocupar el espacio vertical */
-    width: auto; /* Mantiene la proporción */
-    object-fit: cover; /* Asegura que la imagen ocupe todo el espacio disponible */
+    max-width: 100%; 
+    max-height: 100%; 
+    height: 100%;
+    width: auto; 
+    object-fit: cover; 
 }
 
 .icono-clinica {
@@ -31,13 +31,12 @@
     width: 70%;
   }
 
-
 .imagen-secundaria {
     display: flex;
-    justify-content: flex; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    justify-content: flex;
+    align-items: center;
     height: 35vh;
-    min-height: calc(30vh + 50px); /* Combina altura mínima con un valor fijo */
+    min-height: calc(30vh + 50px); 
     padding: 10px;
 }
 @media (max-width: 768px) {

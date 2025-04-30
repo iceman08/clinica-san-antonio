@@ -22,18 +22,18 @@ nav a:hover {
 }
 
 /* Contenedor principal de las secciones */
-.container {
+.container-about {
   display: flex;
   align-items: flex-start;
   padding: 20px;
 }
-.content {
+.content-about {
   width: 75%;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.section {
+.section-about {
   display: flex;
   align-items: flex-start;
   gap: 15px;
@@ -43,17 +43,23 @@ nav a:hover {
   font-size: 18px;
   align-items: center;
 }
-.section img {
+.section-about img {
   width: 144px;
   margin-top: 5px;
 }
-.container-2x2 {
+.container-rowx3 {
   display: flex;
-  flex-wrap: wrap; /* Permite que los elementos se acomoden cuando es necesario */
-  gap: 10px; /* Espacio entre las secciones */
+  flex-wrap: wrap;
+  gap: 10px;
 }
-/* Estilo para cada sección */
-.section-2x2 {
-  flex: 1 1 45%; /* 45% de ancho para las secciones (2 por fila) */
+
+.section-rowx3 {
+  flex: 1 1 30%;
+  min-width: 200px;
+  text-align: center;
+}
+.section-rowx3 img {
+  display: block;
+  margin: 0 auto;
 }
 
